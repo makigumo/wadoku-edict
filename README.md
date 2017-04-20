@@ -11,3 +11,11 @@ For convenience a helper perl script ```xslttransform.pl``` is included.
 ./xslttransform.pl xsl/entry_export_edict.xsl wadoku.xml > outputfile
 ```
 
+## Dependencies
+
+The perl script requires the `XML::LibXSLT` perl package.
+
+For Ubuntu:
+```
+sudo apt-get install libxml-libxslt-perl
+```
